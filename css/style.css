@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'helvetica neue';
+  src: url('../fonts/helveticaneue-thinitalic-webfont.woff2') format('woff2'),
+       url('../fonts/helveticaneue-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneue-thincond-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thincond-webfont.woff') format('woff');
+    font-weight: normal;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneue-thincondobl-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thincondobl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneue-thinext-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thinext-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helvetica neue';
+    src: url('../fonts/helveticaneue-thinextobl-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneue-thinextobl-webfont.woff') format('woff');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+body {
+  background: url("../img/bkg1.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'helvetica neue', Tahoma;
+}
+
+.menu {
+  text-align: right;
+  padding-right: 20px;
+/*  background=074f8fff&noise=b5b5b5density=30&opacity=15;*/
+  background: #074f8f;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 39px;
+  font-size: 14px;
+  color: white;
+  vertical-align: middle;
+  height: 39px;
+  width: 70px;
+  text-align: center;
+}
+
+.menu .first-item {
+  width: 90px;
+}
+
+.menu .last-item {
+  border-right: 1px solid #56a2dc;
+}
+
+.menu .r-item{
+  width: 180px;
+  color: white;
+}
+
+.menu li a {
+  display: block;
+  color: #60b5ed;
+  text-decoration: none;
+}
+
+.menu .r-item a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.menu .r-item .flag {
+  background: url(../img/flag.png) no-repeat;
+  background-position: 10px;
+}
+
+.item-font {
+  text-decoration: underline;
+}
+
+.menu li a:hover {
+  background: #4eabda;
+  color: white;
+}
+
+.menu .r-item a:hover {
+  background-image: linear-gradient(#50afdc, #2e7ac4);
+  color: white;
+}
+
+form {
+  position: fixed;
+  top: 39px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 610px;
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.f-head {
+  font-size: 24px;  
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.fb {
+  display: block;
+  background: url(../img/btn_facebook.png);
+  height: 35px;
+  width: 275px;
+  margin: 37px auto 30px;
+}
+
+.write-ou {
+  margin: 0 auto;
+  width: 280px;
+}
+
+.write-ou li {
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  color: #999;
+}
+
+.hr1 {
+  border: none;
+  width: 122px;
+  height: 1px;
+  background: #666;
+  line-height: 1px;
+  margin: 0;
+}
+
+.hr2 {
+  border: none;
+  width: 122px;
+  height: 1px;
+  line-height: 1px;
+  background: #000;
+  margin: 0;
+}
+
+.txt {
+  display: block;
+  margin: 17px auto 0;
+  height: 35px;
+  width: 255px;
+  padding-left: 20px;
+  line-height:  35px;
+  vertical-align: middle;
+  color: #ccc;
+  background-image: linear-gradient(#0f0f0f, #111111);
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #494848;
+  font-family: 'helvetica neue';
+}
+
+.txt:focus {
+  background-image: linear-gradient(#1b4b79, #1b5288);
+  color: #fff;
+  outline: 0;
+  border-bottom: 1px solid #689bcc;
+  box-shadow: 0 0 5px 2px #689bcc;
+}
+
+#check {
+  margin: 0;
+  display: inline;
+  height: 13px;
+  width: 13px;
+}
+
+.chkbox {
+  display: block;
+  line-height: 35px;
+  margin: 17px auto 0;
+  height: 35px;
+  width: 285px;
+  color: #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  margin: 17px auto 0;
+  padding: 0;
+  height: 35px;
+  line-height:  35px;
+  vertical-align: middle;
+  width: 150px;
+  color: white;
+  background-image: linear-gradient(#4faddb, #2e7ac4);
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'helvetica neue';
+}
+
+.foot-form {
+  font-size: 11px;
+  color: #ccc; 
+  width: 335px;
+  height: 35px;
+  margin: 17px auto 0; 
+  text-align: center;
+}
